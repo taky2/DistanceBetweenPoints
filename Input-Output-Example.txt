@@ -1,0 +1,78 @@
+$ javac Distance.java
+$ java Distance
+
+Enter the number of vertices: 
+11
+Enter the x coordinate for V1
+0
+Enter the y coordinate for V1
+4
+Enter the x coordinate for V2
+2
+Enter the y coordinate for V2
+3
+Enter the x coordinate for V3
+3
+Enter the y coordinate for V3
+4
+Enter the x coordinate for V4
+5
+Enter the y coordinate for V4
+1
+Enter the x coordinate for V5
+6
+Enter the y coordinate for V5
+1.5
+Enter the x coordinate for V6
+12
+Enter the y coordinate for V6
+0
+Enter the x coordinate for V7
+13
+Enter the y coordinate for V7
+1
+Enter the x coordinate for V8
+10
+Enter the y coordinate for V8
+3
+Enter the x coordinate for V9
+11
+Enter the y coordinate for V9
+4
+Enter the x coordinate for V10
+8
+Enter the y coordinate for V10
+7
+Enter the x coordinate for V11
+8
+Enter the y coordinate for V11
+7.5
+
+The data is entered as follows 
+[ V1[0,4]
+  V2[2,3]
+  V3[3,4]
+  V4[5,1]
+  V5[6,1]
+  V6[12,0]
+  V7[13,1]
+  V8[10,3]
+  V9[11,4]
+  V10[8,7]
+  V11[8,7] ]
+
+|         |    V1    |    V2    |    V3    |    V4    |    V5    |    V6    |    V7    |    V8    |    V9    |    V10   |    V11   |
+|   V1    |  0.0000  |  2.2361  |  3.0000  |  5.8310  |  6.7082  |  12.649  |  13.342  |  10.050  |  11.000  |  8.5440  |  8.5440  |
+|   V2    |  2.2361  |  0.0000  |  1.4142  |  3.6056  |  4.4721  |  10.440  |  11.180  |  8.0000  |  9.0554  |  7.2111  |  7.2111  |
+|   V3    |  3.0000  |  1.4142  |  0.0000  |  3.6056  |  4.2426  |  9.8489  |  10.440  |  7.0711  |  8.0000  |  5.8310  |  5.8310  |
+|   V4    |  5.8310  |  3.6056  |  3.6056  |  0.0000  |  1.0000  |  7.0711  |  8.0000  |  5.3852  |  6.7082  |  6.7082  |  6.7082  |
+|   V5    |  6.7082  |  4.4721  |  4.2426  |  1.0000  |  0.0000  |  6.0828  |  7.0000  |  4.4721  |  5.8310  |  6.3246  |  6.3246  |
+|   V6    |  12.649  |  10.440  |  9.8489  |  7.0711  |  6.0828  |  0.0000  |  1.4142  |  3.6056  |  4.1231  |  8.0623  |  8.0623  |
+|   V7    |  13.342  |  11.180  |  10.440  |  8.0000  |  7.0000  |  1.4142  |  0.0000  |  3.6056  |  3.6056  |  7.8102  |  7.8102  |
+|   V8    |  10.050  |  8.0000  |  7.0711  |  5.3852  |  4.4721  |  3.6056  |  3.6056  |  0.0000  |  1.4142  |  4.4721  |  4.4721  |
+|   V9    |  11.000  |  9.0554  |  8.0000  |  6.7082  |  5.8310  |  4.1231  |  3.6056  |  1.4142  |  0.0000  |  4.2426  |  4.2426  |
+|   V10   |  8.5440  |  7.2111  |  5.8310  |  6.7082  |  6.3246  |  8.0623  |  7.8102  |  4.4721  |  4.2426  |  0.0000  |  0.0000  |
+|   V11   |  8.5440  |  7.2111  |  5.8310  |  6.7082  |  6.3246  |  8.0623  |  7.8102  |  4.4721  |  4.2426  |  0.0000  |  0.0000  |
+
+
+Process finished with exit code 0
